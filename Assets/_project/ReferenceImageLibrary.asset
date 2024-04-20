@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: BiologyReferenceLibrary
+  m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 5341479571455681300
-  m_GuidHigh: 10891597022761330848
+  m_GuidLow: 5326445037892098244
+  m_GuidHigh: 16881145113923174070
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5311259706511221508
-      m_GuidHigh: 14293251711567682201
+      m_GuidLow: 4859587861056719795
+      m_GuidHigh: 13576357845679816113
     m_SerializedTextureGuid:
-      m_GuidLow: 12953613716215083162
-      m_GuidHigh: 5667522059254316778
+      m_GuidLow: 1572931650612041591
+      m_GuidHigh: 2426783220681417418
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: heart
-    m_Texture: {fileID: 2800000, guid: 30a0b09a7b0bb3c4ea3e8bfa4815a74e, type: 3}
+    m_Texture: {fileID: 2800000, guid: a2b317772d0015d4ca2298477baaad21, type: 3}
