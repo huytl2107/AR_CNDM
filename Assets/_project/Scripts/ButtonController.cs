@@ -6,7 +6,7 @@ public class ButtonController : MonoBehaviour
 {
     public void LoadNextScene()
     {
-        GameManager.Instant.LoadNextScene();
+        SceneLoader.Instant.LoadNextScene();
     }
 
     public void ExitGame()

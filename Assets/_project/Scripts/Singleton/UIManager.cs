@@ -21,7 +21,7 @@ public class UIManager : Singleton<UIManager>
 
     public void LoadUI()
     {
-        if (GameManager.Instant.GetBuildIndex() == 0)
+        if (SceneLoader.Instant.GetBuildIndex() == 0)
         {
             _startMenuUI.SetActive(true);
         }
