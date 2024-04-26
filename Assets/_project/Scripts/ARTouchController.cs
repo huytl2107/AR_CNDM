@@ -1,32 +1,22 @@
-using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ARTouchController : MonoBehaviour
 {
-    [SerializeField] GameObject descriptionPanel;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))    
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Pressed primary button.");
-
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100))
             {
-
-                //just test
-                if (hit.transform.name == "heart(Clone)")
+                if (hit.collider.gameObject.GetComponent<ObjectController>() != null)
                 {
-                    descriptionPanel.GetComponentInChildren<TMP_Text>().text = "Click Heart";
-                    return;
+                    AntiWibu_UIManager.Instance.ShowPanelWithLeanTween("InfoPanel");
+                    AntiWibu_UIManager.Instance.ChangeText("InfoPanel", hit.collider.gameObject.
+                        GetComponent<ObjectController>().ObjectDataScriptable.ObjectDescription);
                 }
-                Debug.Log("hit");
-                Debug.Log(hit.transform.name + " : " + hit.transform.name);
-
-                ObjectController objectController = hit.collider.gameObject.GetComponent<ObjectController>();
-                descriptionPanel.GetComponent<TMP_Text>().text = objectController.Data.ObjectDescription;
-
             }
         }
     }
