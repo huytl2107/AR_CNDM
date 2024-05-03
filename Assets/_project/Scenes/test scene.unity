@@ -123,6 +123,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &778114198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3577746065222935323, guid: 9140e0968c70db34fa80c87ab59d5460,
+    type: 3}
+  m_PrefabInstance: {fileID: 1430344092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &778114207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778114198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e37bf9d23704849b6d4bb2fae198be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selfSelected: 0
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeselected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &880135809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,17 +1298,17 @@ PrefabInstance:
     - target: {fileID: 5791206686907351573, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.5100007
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5791206686907351573, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.5100007
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5791206686907351573, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5100007
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5791206686907351573, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
@@ -1343,17 +1368,21 @@ PrefabInstance:
     - target: {fileID: 8498520302293157998, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8498520302293157998, guid: 9140e0968c70db34fa80c87ab59d5460,
         type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3577746065222935323, guid: 9140e0968c70db34fa80c87ab59d5460,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 778114207}
   m_SourcePrefab: {fileID: 100100000, guid: 9140e0968c70db34fa80c87ab59d5460, type: 3}
 --- !u!1 &1520610743
 GameObject:
@@ -2055,6 +2084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1790214156}
   - component: {fileID: 1790214155}
+  - component: {fileID: 1790214157}
   m_Layer: 0
   m_Name: LeanTouch
   m_TagString: Untagged
@@ -2103,6 +2133,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790214157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790214154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63d4be4bed5744479160ea1148b5821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deselectWithNothing: 0
+  limit: 0
+  maxSelectables: 5
+  reselect: 1
+  selectables: []
+  onSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeselected:
+    m_PersistentCalls:
+      m_Calls: []
+  onNothing:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2078556603
 GameObject:
   m_ObjectHideFlags: 0
