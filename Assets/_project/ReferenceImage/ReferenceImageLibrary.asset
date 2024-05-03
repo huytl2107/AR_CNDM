@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: heart
     m_Texture: {fileID: 2800000, guid: a2b317772d0015d4ca2298477baaad21, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5404432702279825061
+      m_GuidHigh: 16727793548183172258
+    m_SerializedTextureGuid:
+      m_GuidLow: 1271311165467257657
+      m_GuidHigh: 4960760121507613400
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Sun_Earth_Moon
+    m_Texture: {fileID: 2800000, guid: f0a9eb399ac411a4d88a621a0c29d844, type: 3}

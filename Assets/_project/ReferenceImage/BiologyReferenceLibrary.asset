@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: heart
     m_Texture: {fileID: 2800000, guid: 30a0b09a7b0bb3c4ea3e8bfa4815a74e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4675039437740509946
+      m_GuidHigh: 13181452508549781662
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
