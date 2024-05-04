@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2854ef42afa110445bf45162c46716e7, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  objectName: Skeleton
+  objectDescription: "\u1EDE tu\u1ED5i tr\u01B0\u1EDFng th\xE0nh, b\u1ED9 x\u01B0\u01A1ng
+    c\u1EE7a con ng\u01B0\u1EDDi c\xF3 kho\u1EA3ng 206 x\u01B0\u01A1ng, nh\u01B0ng
+    khi m\u1EDBi sinh, m\u1ED9t em b\xE9 c\xF3 t\u1EDBi kho\u1EA3ng 270 x\u01B0\u01A1ng."

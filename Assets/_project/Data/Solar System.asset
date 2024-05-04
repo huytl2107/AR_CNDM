@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2854ef42afa110445bf45162c46716e7, type: 3}
+  m_Name: Solar System
+  m_EditorClassIdentifier: 
+  objectName: Sun_Earth_Moon
+  objectDescription: "H\u1EC7 M\u1EB7t Tr\u1EDDi bao g\u1ED3m M\u1EB7t Tr\u1EDDi
+    v\xE0 t\u1EA5t c\u1EA3 c\xE1c thi\xEAn th\u1EC3 quay xung quanh n\xF3, bao g\u1ED3m
+    t\xE1m h\xE0nh tinh, v\xF4 s\u1ED1 ti\u1EC3u h\xE0nh tinh v\xE0 sao ch\u1ED5i.
+    Trong \u0111\xF3, Tr\xE1i \u0110\u1EA5t l\xE0 h\xE0nh tinh th\u1EE9 ba t\xEDnh
+    t\u1EEB M\u1EB7t Tr\u1EDDi v\xE0 l\xE0 n\u01A1i duy nh\u1EA5t \u0111\u01B0\u1EE3c
+    bi\u1EBFt \u0111\u1EBFn c\xF3 s\u1EF1 s\u1ED1ng."

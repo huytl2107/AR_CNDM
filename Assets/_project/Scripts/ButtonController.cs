@@ -14,6 +14,11 @@ public class ButtonController : MonoBehaviour
         Application.Quit();
     }
 
+    public void ReloadScene()
+    {
+        SceneLoader.Instant.ReloadScene();
+    }    
+
     #region ExitConfirm
     public void PopUpExitConfirm()
     {
