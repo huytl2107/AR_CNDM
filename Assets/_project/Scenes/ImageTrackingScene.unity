@@ -1036,7 +1036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &381896691
 Transform:
   m_ObjectHideFlags: 0
@@ -2997,7 +2997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1152697926
 Transform:
   m_ObjectHideFlags: 0
@@ -4229,7 +4229,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ArPrefabs:
   - {fileID: 3577746065222935323, guid: 9140e0968c70db34fa80c87ab59d5460, type: 3}
+  - {fileID: 9060112373064087644, guid: e15ad689786e55c448761e53fac6871e, type: 3}
   - {fileID: 4010811905143625412, guid: 78f12ee0a21b4ce4f8a5c0f64e972d73, type: 3}
+  - {fileID: 146050747381181823, guid: 950840ea5ccda9a41a38a486401f71ff, type: 3}
+  - {fileID: 3581049903965891805, guid: 7ec09785119812b46b3c9841ca54c4d5, type: 3}
 --- !u!114 &1505909192
 MonoBehaviour:
   m_ObjectHideFlags: 0

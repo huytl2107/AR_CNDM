@@ -19,6 +19,7 @@ public class SceneLoader : Singleton<SceneLoader>
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         UIManager.Instant.ReloadUI();
     }
+
     public void LoadSceneByName(string sceneName)
     {
         if (Application.CanStreamedLevelBeLoaded(sceneName))
