@@ -4230,6 +4230,7 @@ MonoBehaviour:
   ArPrefabs:
   - {fileID: 3577746065222935323, guid: 9140e0968c70db34fa80c87ab59d5460, type: 3}
   - {fileID: 4010811905143625412, guid: 78f12ee0a21b4ce4f8a5c0f64e972d73, type: 3}
+  - {fileID: 6525989288158456241, guid: 8139e576224044b4e9efdebae8813750, type: 3}
 --- !u!114 &1505909192
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Sun_Earth_Moon
     m_Texture: {fileID: 2800000, guid: f0a9eb399ac411a4d88a621a0c29d844, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5643576271434515704
+      m_GuidHigh: 14126977533559938730
+    m_SerializedTextureGuid:
+      m_GuidLow: 10638809613584538537
+      m_GuidHigh: 464398769820301082
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: David
+    m_Texture: {fileID: 0}
