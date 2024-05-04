@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Heart
   m_EditorClassIdentifier: 
   objectName: Heart
-  objectDescription: " Tr\xE1i tim l\xE0 c\u01A1 quan b\u01A1m m\xE1u trong c\u01A1
+  objectDescription: "Tr\xE1i tim l\xE0 c\u01A1 quan b\u01A1m m\xE1u trong c\u01A1
     th\u1EC3, \u0111\u1EA3m b\u1EA3o m\xE1u l\u01B0u th\xF4ng \u0111\u1EC3 cung c\u1EA5p
     oxy v\xE0 ch\u1EA5t dinh d\u01B0\u1EE1ng cho c\xE1c t\u1EBF b\xE0o. Trong m\u1ED9t
     ph\xFAt, tr\xE1i tim ng\u01B0\u1EDDi tr\u01B0\u1EDFng th\xE0nh c\xF3 th\u1EC3
-    \u0111\u1EADp t\u1EEB 60 \u0111\u1EBFn 100 l\u1EA7n."
+    \u0111\u1EADp t\u1EEB 60 \u0111\u1EBFn 100 l\u1EA7n.  "

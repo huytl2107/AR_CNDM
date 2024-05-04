@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   objectName: Skeleton
-  objectDescription: "\u1EDE tu\u1ED5i tr\u01B0\u1EDFng th\xE0nh, b\u1ED9 x\u01B0\u01A1ng
-    c\u1EE7a con ng\u01B0\u1EDDi c\xF3 kho\u1EA3ng 206 x\u01B0\u01A1ng, nh\u01B0ng
-    khi m\u1EDBi sinh, m\u1ED9t em b\xE9 c\xF3 t\u1EDBi kho\u1EA3ng 270 x\u01B0\u01A1ng."
+  objectDescription: "B\u1ED9 x\u01B0\u01A1ng c\u1EE7a con ng\u01B0\u1EDDi kh\xF4ng
+    ch\u1EC9 \u0111\xF3ng vai tr\xF2 l\xE0 khung ch\u1EAFc ch\u1EAFn h\u1ED7 tr\u1EE3
+    c\u01A1 th\u1EC3, m\xE0 c\xF2n b\u1EA3o v\u1EC7 c\xE1c c\u01A1 quan n\u1ED9i
+    t\u1EA1ng, h\u1ED7 tr\u1EE3 chuy\u1EC3n \u0111\u1ED9ng, v\xE0 l\xE0 kho ch\u1EE9a
+    kho\xE1ng ch\u1EA5t quan tr\u1ECDng nh\u01B0 canxi v\xE0 phospho. \u1EDE tu\u1ED5i
+    tr\u01B0\u1EDFng th\xE0nh, b\u1ED9 x\u01B0\u01A1ng c\u1EE7a con ng\u01B0\u1EDDi
+    c\xF3 kho\u1EA3ng 206 x\u01B0\u01A1ng"
