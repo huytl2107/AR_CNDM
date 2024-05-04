@@ -13,9 +13,4 @@ MonoBehaviour:
   m_Name: Sun_Earth_Moon
   m_EditorClassIdentifier: 
   objectName: Sun_Earth_Moon
-  objectDescription: " Fact: M\u1EB7t Tr\u1EDDi l\u1EDBn h\u01A1n M\u1EB7t Tr\u0103ng
-    400 l\u1EA7n v\xE0 c\u0169ng c\xE1ch Tr\xE1i \u0110\u1EA5t xa g\u1EA5p 400 l\u1EA7n
-    kho\u1EA3ng c\xE1ch t\u1EEB Tr\xE1i \u0110\u1EA5t \u0111\u1EBFn M\u1EB7t Tr\u0103ng.
-    \u0110i\u1EC1u n\xE0y gi\u1EA3i th\xEDch v\xEC sao khi nh\xECn t\u1EEB Tr\xE1i
-    \u0110\u1EA5t, M\u1EB7t Tr\u0103ng v\xE0 M\u1EB7t Tr\u1EDDi c\xF3 k\xEDch th\u01B0\u1EDBc
-    t\u01B0\u01A1ng \u0111\u01B0\u01A1ng nhau."
+  objectDescription: dau buoi

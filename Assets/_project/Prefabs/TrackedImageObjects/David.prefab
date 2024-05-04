@@ -51,17 +51,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0cf9d08482cdbb1499dfd3d577332dea,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cf9d08482cdbb1499dfd3d577332dea,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cf9d08482cdbb1499dfd3d577332dea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cf9d08482cdbb1499dfd3d577332dea,
         type: 3}
@@ -82,31 +82,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: David
-      objectReference: {fileID: 0}
-    - target: {fileID: 3878145914022889073, guid: 0cf9d08482cdbb1499dfd3d577332dea,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3878145914022889073, guid: 0cf9d08482cdbb1499dfd3d577332dea,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3878145914022889073, guid: 0cf9d08482cdbb1499dfd3d577332dea,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3878145914022889073, guid: 0cf9d08482cdbb1499dfd3d577332dea,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3878145914022889073, guid: 0cf9d08482cdbb1499dfd3d577332dea,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -135,7 +110,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6598939752358177202, guid: 0cf9d08482cdbb1499dfd3d577332dea,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3232826820892857740}
+      addedObject: {fileID: 2043453839475709290}
   m_SourcePrefab: {fileID: 100100000, guid: 0cf9d08482cdbb1499dfd3d577332dea, type: 3}
 --- !u!1 &992399139566140754 stripped
 GameObject:
@@ -269,7 +244,7 @@ MonoBehaviour:
   sensitivity: 1
   damping: -1
   remainingScale: {x: 0, y: 0, z: 0}
---- !u!114 &3232826820892857740
+--- !u!114 &2043453839475709290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,7 +253,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 992399139566140754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8c6f5fb235577e4d9633c654c2ff57f, type: 3}
+  m_Script: {fileID: 11500000, guid: dc7c91b26689a054d88448aba6dfe424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 16d7352dbd1ed3642974078aa2fa7c78, type: 2}
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 7401823622492948571}
+  axis: {x: 0, y: -1, z: 0}
+  space: 1
+  sensitivity: 1
