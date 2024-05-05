@@ -28,16 +28,6 @@ MonoBehaviour:
     m_Name: heart
     m_Texture: {fileID: 2800000, guid: a2b317772d0015d4ca2298477baaad21, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5720225877515190997
-      m_GuidHigh: 4136142532671486910
-    m_SerializedTextureGuid:
-      m_GuidLow: 10638809613584538537
-      m_GuidHigh: 464398769820301082
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: David
-    m_Texture: {fileID: 2800000, guid: 0ab79ba9a4fa93a41a77447d38e07106, type: 3}
-  - m_SerializedGuid:
       m_GuidLow: 4635831225077659831
       m_GuidHigh: 15526020686959658159
     m_SerializedTextureGuid:
@@ -67,3 +57,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: Sun_Earth_Moon
     m_Texture: {fileID: 2800000, guid: f0a9eb399ac411a4d88a621a0c29d844, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5437337319844651234
+      m_GuidHigh: 592365054407295874
+    m_SerializedTextureGuid:
+      m_GuidLow: 18132869565221388301
+      m_GuidHigh: 5704062685610026281
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: David
+    m_Texture: {fileID: 2800000, guid: 2983400de4ccfba429a55888cae6284f, type: 3}
