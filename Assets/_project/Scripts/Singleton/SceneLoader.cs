@@ -20,6 +20,11 @@ public class SceneLoader : Singleton<SceneLoader>
         UIManager.Instant.ReloadUI();
     }
 
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void LoadSceneByName(string sceneName)
     {
         if (Application.CanStreamedLevelBeLoaded(sceneName))

@@ -14,6 +14,11 @@ public class ButtonController : MonoBehaviour
         Application.Quit();
     }
 
+    public void BackToMenu()
+    {
+        SceneLoader.Instant.BackToMenu();
+    }    
+
     #region ExitConfirm
     public void PopUpExitConfirm()
     {
